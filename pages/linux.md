@@ -1,9 +1,9 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
-permalink: /linux.html
+layout: page
+title: Linux
+permalink: /linux/
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
