@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Windows
 permalink: /windows.html
 ---
 {% assign posts = site.posts | where:"type", "windows" %}
