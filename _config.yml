@@ -34,6 +34,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#variables
+defaults:
+  - scope:
+      path: "_posts/linux"
+    values:
+      type: "linux"
+  - scope:
+      path: "_posts/windows"
+    values:
+      type: "windows"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
