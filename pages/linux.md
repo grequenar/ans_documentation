@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 title: Linux
-permalink: /linux/
+permalink: /linux.html
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
