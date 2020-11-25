@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Windows
-permalink: /windows.html
+permalink: /windows/
 ---
 {% assign posts = site.posts | where:"type", "windows" %}
 
