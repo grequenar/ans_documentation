@@ -1,5 +1,8 @@
 ---
 layout: post
+title: ntp linux role
+author: Gloria Requena
+permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 
 # Ansible Role: NTP

@@ -1,9 +1,17 @@
 ---
 layout: default
+title: Home Page
 permalink: /index.html
 ---
 
 <ul>
-<li><a href="{{ site.url }}{{site.baseurl}}/linux.html">Linux</a></li>
-<li><a href="{{ site.url }}{{site.baseurl}}/windows.html">Windows</a></li>
+<li><a href="{{ site.url }}{{site.baseurl}}/linux/">Linux</a></li>
+<li><a href="{{ site.url }}{{site.baseurl}}/windows/">Windows</a></li>
 </ul>
+
+<form action="/{{ baseurl }}/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+

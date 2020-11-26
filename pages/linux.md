@@ -1,7 +1,8 @@
 ---
-layout: default
-title: Linux
-permalink: /linux.html
+layout: page
+type: linux
+hero_text: Linux ansible roles
+permalink: /linux/
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
@@ -12,3 +13,4 @@ permalink: /linux.html
 </li>
 {% endfor %}
 <ul>
+

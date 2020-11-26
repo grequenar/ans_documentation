@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Windows
-permalink: /windows.html
+type: windows
+permalink: /windows/
 ---
 {% assign posts = site.posts | where:"type", "windows" %}
 
@@ -12,3 +12,4 @@ permalink: /windows.html
 </li>
 {% endfor %}
 <ul>
+

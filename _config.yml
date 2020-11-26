@@ -30,9 +30,9 @@ baseurl: "/ans_documentation" # the subpath of your site, e.g. /blog
 #github_username:  ""
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+#theme: minima
+#plugins:
+#  - jekyll-feed
 
 #variables
 defaults:
