@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: Linux
-permalink: linux.html
+permalink: /linux.html
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
