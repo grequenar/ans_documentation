@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Ansible Role: NTP
 
 [![CI](https://github.com/geerlingguy/ansible-role-ntp/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-ntp/actions?query=workflow%3ACI)
