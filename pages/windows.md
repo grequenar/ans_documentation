@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 title: Windows
-permalink: /windows/
+permalink: /windows.html
 ---
 {% assign posts = site.posts | where:"type", "windows" %}
 
 <ul>
 {% for post in posts %}
 <li>
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 <ul>

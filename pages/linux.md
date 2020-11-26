@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 title: Linux
-permalink: linux.html
+permalink: /linux.html
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
 <ul>
 {% for post in posts %}
 <li>
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 <ul>
