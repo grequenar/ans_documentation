@@ -1,6 +1,5 @@
 ---
 layout: post
-tittle: "Ansible Role: NTP"
 ---
 
 # Ansible Role: NTP
