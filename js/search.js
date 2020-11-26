@@ -7,7 +7,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="grequenar.github.io/' + item.url + '"><h3>' + item.title + '</h3></a>';
+        appendString += '<li><a href="/grequenar.github.io/' + item.url + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
       }
 
