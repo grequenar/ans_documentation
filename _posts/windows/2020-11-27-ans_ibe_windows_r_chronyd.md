@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ntp linux role
+title: chrony windows role
 author: Gloria Requena
-permalink: /linux/ans-ibe-linux-r-ntp.html 
+permalink: /windows/ans-ibe-windows-r-chrony.html 
 ---
 
 # ericsysmin.chrony
