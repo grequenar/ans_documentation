@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ntp linux role
+title: ans-ibe-linux-r-ntp
 author: Gloria Requena
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
