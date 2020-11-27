@@ -5,13 +5,9 @@ author: Gloria Requena
 permalink: /windows/ans-ibe-windows-r-chrony.html 
 ---
 
-# ericsysmin.chrony
+## Description
 
 This role enables users to install and configure chrony on their hosts.
-
-## Build Status
-
-[![Build Status](https://travis-ci.org/ericsysmin/ansible-role-chrony.svg?branch=master)](https://travis-ci.org/ericsysmin/ansible-role-chrony)
 
 ## Requirements
 
@@ -46,11 +42,3 @@ None
         - 0.pool.ntp.org
         - 2.pool.ntp.org
 ```
-
-## License
-
-MIT
-
-## Author Information
-
-[ericsysmin](https://ericsysmin.com)
