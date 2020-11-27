@@ -274,12 +274,26 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+div.container,
+div.small-container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*div.container {
+  max-width: 940px;
+}*/
+
+/*div.small-container {
+  max-width: 700px;
+}*/
 
 header,
 footer {
   background: #1D1D1D;
   color: #ffff;
 }
+
 
 
 
