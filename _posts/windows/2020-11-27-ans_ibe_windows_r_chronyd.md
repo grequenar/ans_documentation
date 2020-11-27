@@ -30,14 +30,14 @@ None
 ```yaml
 - hosts: all
   roles:
-    - role: ericsysmin.chrony
+    - role: iberdrola.chrony
 ```
 
 2) Install chrony and use custom servers.
 ```yaml
 - hosts: all
   roles:
-    - role: ericsysmin.chrony
+    - role: iberdrola.chrony
       chrony_config_server:
         - 0.pool.ntp.org
         - 2.pool.ntp.org
