@@ -4,9 +4,16 @@ title: Home Page
 permalink: /index.html
 ---
 
-<ul>
-<li><a href="{{ site.url }}{{site.baseurl}}/linux/">Linux</a></li>
-<li><a href="{{ site.url }}{{site.baseurl}}/windows/">Windows</a></li>
+<h2 class="category-list-heading">Categories</h2>
+<ul class="post-list">
+<li>
+<h3>
+<a class="category-link" href="{{ site.url }}{{site.baseurl}}/linux/">Linux
+          </a>
+<a class="category-link" href="{{ site.url }}{{site.baseurl}}/windows/">Windows
+          </a>
+</h3>
+</li>
 </ul>
 
 
