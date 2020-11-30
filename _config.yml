@@ -44,6 +44,11 @@ defaults:
       path: "_posts/windows"
     values:
       group: "windows"
+  - scope:
+      path: "_posts/sql"
+    values:
+      group: "sql"
+
 
 
 # Exclude from processing.

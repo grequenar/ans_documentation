@@ -18,6 +18,13 @@ permalink: /index.html
           </a>
 </h3>
 </li>
+<li>
+<h3>
+<a class="group-link" href="{{ site.url }}{{site.baseurl}}/sql/">SQL
+          </a>
+</h3>
+</li>
+
 </ul>
 
 
