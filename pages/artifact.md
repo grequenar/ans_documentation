@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Home Page
 permalink: /index.html
 ---
@@ -8,7 +8,7 @@ permalink: /index.html
 <ul class="group-list">
 <li>
 <h3>
-<a class="group-link" href="{{ site.url }}{{site.baseurl}}/linux/">Linux
+<a class="group-link" href="{{ site.url }}{{site.baseurl}}/linux/roles/">Linux
           </a>
 </h3>
 </li>
