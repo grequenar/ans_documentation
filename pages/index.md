@@ -10,6 +10,10 @@ permalink: /index.html
 <h3>
 <a class="category-link" href="{{ site.url }}{{site.baseurl}}/linux/">Linux
           </a>
+</h3>
+</li>
+<li>
+<h3>
 <a class="category-link" href="{{ site.url }}{{site.baseurl}}/windows/">Windows
           </a>
 </h3>
