@@ -9,9 +9,11 @@ permalink: /index.html
 <li><a href="{{ site.url }}{{site.baseurl}}/windows/">Windows</a></li>
 </ul>
 
+<footer>
 <form action="{{site.baseurl}}/search.html" method="get">
   <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
 </form>
+</footer>
 
