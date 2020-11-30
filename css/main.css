@@ -130,11 +130,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-link { display: block; font-size: 24px; }
 
-.category-list-heading { font-size: 28px; }
+.group-list-heading { font-size: 28px; }
 
-.category-list { margin-left: 0; list-style: none; }
+.group-list { margin-left: 0; list-style: none; }
 
-.category-list > li { margin-bottom: 30px; }
+.group-list > li { margin-bottom: 30px; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }

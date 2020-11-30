@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ans-ibe-linux-r-ntp
+group: linux
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 

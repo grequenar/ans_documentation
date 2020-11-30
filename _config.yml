@@ -39,11 +39,11 @@ defaults:
   - scope:
       path: "_posts/linux"
     values:
-      type: "linux"
+      group: "linux"
   - scope:
       path: "_posts/windows"
     values:
-      type: "windows"
+      group: "windows"
 
 
 # Exclude from processing.
