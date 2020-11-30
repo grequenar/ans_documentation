@@ -123,7 +123,7 @@ Users are defined with a dict containing fields `name:`, `password:`, `priv:`, a
 
 An example:
 
-```Yaml
+```yaml
 mariadb_users:
   - name: john
     password: letmein
@@ -141,6 +141,7 @@ None.
 
 ## Example Playbook
 
+```yaml
   - name: Molecule test playbook
     hosts: all
     vars:
@@ -178,3 +179,5 @@ None.
           host: '172.17.%'
     roles:
       - role: bertvv.mariadb
+```
+
