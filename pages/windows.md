@@ -5,11 +5,11 @@ permalink: /windows/
 ---
 {% assign posts = site.posts | where:"type", "windows" %}
 
-<ul>
 {% for post in posts %}
 <li>
-<a href="{{ site.url }}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+<span class="post-meta">{{ post.date }}</span>
+<h3>
+<a class="post-link" href="{{ site.url }}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+</h3>
 </li>
 {% endfor %}
-<ul>
-

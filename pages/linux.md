@@ -8,7 +8,7 @@ permalink: /linux/
 
 {% for post in posts %}
 <li>
-<span class="post-meta">Nov 27, 2020</span>
+<span class="post-meta">{{ post.date }}</span>
 <h3>
 <a class="post-link" href="{{ site.url }}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 </h3>

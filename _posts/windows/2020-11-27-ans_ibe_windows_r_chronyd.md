@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ans-ibe-windows-r-chrony
-author: Gloria Requena
 permalink: /windows/ans-ibe-windows-r-chrony.html 
 ---
 
