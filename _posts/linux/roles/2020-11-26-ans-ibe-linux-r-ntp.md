@@ -2,6 +2,7 @@
 layout: post
 title: ans-ibe-linux-r-ntp
 group: linux
+artifact: role
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 
@@ -40,35 +41,35 @@ The path to the NTP configuration file. The default is `/etc/ntp.conf` for most 
     ntp_manage_config: false
 
 Set to true to allow this role to manage the NTP configuration file (`/etc/ntp.conf`).
-
+```yaml
     ntp_driftfile: [various]
-
+``
 The default NTP driftfile should be correct for your distribution, but there are some cases where you may want to override the default.
-
+```yaml
     ntp_area: ''
-
+```
 Set the [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) to use. Defaults to none, which uses the worldwide pool.
-
+```yaml
     ntp_servers:
       - "0{{ '.' + ntp_area if ntp_area else '' }}.pool.ntp.org iburst"
       - "1{{ '.' + ntp_area if ntp_area else '' }}.pool.ntp.org iburst"
       - "2{{ '.' + ntp_area if ntp_area else '' }}.pool.ntp.org iburst"
       - "3{{ '.' + ntp_area if ntp_area else '' }}.pool.ntp.org iburst"
-
+```
 Specify the NTP servers you'd like to use. Only takes effect if you allow this role to manage NTP's configuration, by setting `ntp_manage_config` to `True`.
-
+```yaml
     ntp_restrict:
       - "127.0.0.1"
       - "::1"
-
+```
 Restrict NTP access to these hosts; loopback only, by default.
-
+```yaml
     ntp_cron_handler_enabled: false
-
+```
 Whether to restart the cron daemon after the timezone has changed.
-
+```yaml
     ntp_tinker_panic: true
-
+```
 Enable tinker panic, which is useful when running NTP in a VM.
 
 ## Dependencies
@@ -76,12 +77,12 @@ Enable tinker panic, which is useful when running NTP in a VM.
 None.
 
 ## Example Playbook
-
+```yaml
     - hosts: all
       roles:
         - geerlingguy.ntp
-
+```
 *Inside `vars/main.yml`*:
-
+```yaml
     ntp_timezone: America/Chicago
-
+```

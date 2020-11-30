@@ -110,7 +110,7 @@ log-output=file
 
 Databases are defined with a dict containing the fields `name:` (required), and `init_script:` (optional). The init script is a SQL file that is executed when the database is created to initialise tables and populate it with values.
 
-```Yaml
+```yaml
 mariadb_databases:
   - name: appdb1
   - name: appdb2
