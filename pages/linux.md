@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ans_ibe_linux
+group: linux
 permalink: /linux/
 ---
 {% assign posts = site.posts | where:"group", "linux" %}
