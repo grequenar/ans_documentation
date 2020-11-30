@@ -7,9 +7,9 @@ permalink: /linux/ans-ibe-linux-r-SELinux.html
 
 ## Repo URL
 
- [Jekyll docs][jekyll-docs]
+ [ans-ibe-linux-r-SELinux][ans-ibe-linux-r-SELinux]
 
-[jekyll-docs]: https://github.com/tvallas/ansible-role-selinux
+[ans-ibe-linux-r-SELinux]: https://github.com/tvallas/ansible-role-selinux
 
 ## Description
 
