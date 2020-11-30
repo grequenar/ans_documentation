@@ -6,12 +6,16 @@ permalink: /linux/
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
-<ul>
+<h2 class="post-list-heading">Posts</h2>
+<ul class="post-list">
 {% for post in posts %}
 <li>
-<a href="{{ site.url }}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+<span class="post-meta">Nov 27, 2020</span>
+<h3>
+<a class="post-link" href="{{ site.url }}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+</h3>
 </li>
 {% endfor %}
-<ul>
+</ul>
 
 
