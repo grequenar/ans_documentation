@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ans_ibe_sql
 permalink: /sql/
 ---
 {% assign posts = site.posts | where:"group", "sql" %}

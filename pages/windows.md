@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ans_ibe_windows
 permalink: /windows/
 ---
 {% assign posts = site.posts | where:"group", "windows" %}
