@@ -6,8 +6,6 @@ permalink: /linux/
 ---
 {% assign posts = site.posts | where:"type", "linux" %}
 
-<h2 class="post-list-heading">Posts</h2>
-<ul class="post-list">
 {% for post in posts %}
 <li>
 <span class="post-meta">Nov 27, 2020</span>
@@ -16,6 +14,5 @@ permalink: /linux/
 </h3>
 </li>
 {% endfor %}
-</ul>
 
 
