@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wrapper
 title: Home Page
 permalink: /index.html
 ---
