@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ans-ibe-windows-r-chrony
-group: windows
 permalink: /windows/ans-ibe-windows-r-chrony.html 
 ---
 

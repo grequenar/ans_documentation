@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ans-ibe-linux-r-SELinux
-group: linux
 permalink: /linux/ans-ibe-linux-r-SELinux.html 
 ---
 
