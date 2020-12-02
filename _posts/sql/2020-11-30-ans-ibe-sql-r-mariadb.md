@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ans-ibe-linux-r-mariadb
-permalink: /linux/ans-ibe-linux-r-mariadb.html 
+title: ans-ibe-sql-r-mariadb
+permalink: /linux/ans-ibe-sql-r-mariadb.html 
 ---
 
 ## Repo URL
