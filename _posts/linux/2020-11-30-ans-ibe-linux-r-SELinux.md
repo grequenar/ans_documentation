@@ -24,7 +24,7 @@ None.
 
 Manages type enforcement policy files. For example:
 
-```
+```yaml
 semodule_semodules:
   - name: measurinator_zabbix-agent.te
     module: |
@@ -51,7 +51,7 @@ Destination directory for type enforcement files.
 
 Configures SElinux booleans. For example:
 
-```
+```yaml
 selinux_booleans:
   - name: daemons_enable_cluster_mode
     state: yes
@@ -62,8 +62,8 @@ selinux_booleans:
 None.
 
 ## Example Playbook
-
+```yaml
     - hosts: servers
       roles:
          - { role: selinux, tags: selinux }
-
+```

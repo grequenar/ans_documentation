@@ -5,8 +5,6 @@ artifact: role
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 
-## {{ post.title }}
-
 ## Description
 
 Installs NTP on Linux.
