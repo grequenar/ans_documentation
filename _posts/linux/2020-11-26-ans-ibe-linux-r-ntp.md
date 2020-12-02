@@ -5,6 +5,8 @@ artifact: role
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 
+## {{ post.title }}
+
 ## Description
 
 Installs NTP on Linux.
@@ -16,33 +18,33 @@ None.
 ## Role Variables
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
-
+```yaml
     ntp_enabled: true
-
+```
 Whether to start the ntpd service and enable it at system boot. On many virtual machines that run inside a container (like OpenVZ or VirtualBox), it's recommended you don't run the NTP daemon, since the host itself should be set to synchronize time for all its child VMs.
-
+```yaml
     ntp_timezone: Etc/UTC
-
+```
 Set the timezone for your server.
-
+```yaml
     ntp_package: ntp
-
+```
 The package to install which provides NTP functionality. The default is `ntp` for most platforms, or `chrony` on RHEL/CentOS 7 and later.
-
+```yaml
     ntp_daemon: [various]
-
+```
 The default NTP daemon should be correct for your distribution, but there are some cases where you may want to override the default, e.g. if you're running `ntp` on newer versions of RHEL/CentOS.
-
+```yaml
     ntp_config_file: /etc/ntp.conf
-
+```
 The path to the NTP configuration file. The default is `/etc/ntp.conf` for most platforms, or `/etc/chrony.conf` on RHEL/CentOS 7 and later.
-
+```yaml
     ntp_manage_config: false
-
+```
 Set to true to allow this role to manage the NTP configuration file (`/etc/ntp.conf`).
 ```yaml
     ntp_driftfile: [various]
-``
+```
 The default NTP driftfile should be correct for your distribution, but there are some cases where you may want to override the default.
 ```yaml
     ntp_area: ''
