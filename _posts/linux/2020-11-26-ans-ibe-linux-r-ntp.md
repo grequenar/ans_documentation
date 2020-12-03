@@ -5,6 +5,13 @@ artifact: role
 permalink: /linux/ans-ibe-linux-r-ntp.html 
 ---
 
+## Repo URL
+
+ ['repo title']['repo title']
+
+['repo title']: https://github.com/username/reponame
+
+
 ## Description
 
 Installs NTP on Linux.
